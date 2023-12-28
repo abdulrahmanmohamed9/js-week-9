@@ -60,8 +60,9 @@
             />
           </div>
           <button
-          onclick="function()"
-            class="btn btn-submit px-5 bg-danger text-white"
+            onclick="addBookMark()"
+            style="background-color: #d1512d;"
+            class="btn btn-submit px-5  text-white"
             id="submitBtn"
           >
             Submit
@@ -76,7 +77,9 @@
               <th class="text-capitalize">Delete</th>
             </tr>
           </thead>
-          <tbody id="tableContent"></tbody>
+          <tbody id="tableContent">
+           
+          </tbody>
         </table>
       </div>
       <div
@@ -85,16 +88,7 @@
         <div class="box-conent bg-white p-4 rounded-2 shadow-lg">
           <header
             class="box-header w-100 d-flex justify-content-between align-items-center mb-4"
-          >
-            <div class="circles d-flex">
-              <span class="rounded-circle me-2"></span>
-              <span class="rounded-circle me-2"></span>
-              <span class="rounded-circle me-2"></span>
-            </div>
-            <button class="btn border-0" id="closeBtn">
-              <i class="fa-solid fa-xmark close fs-3"></i>
-            </button>
-          </header>
+          ></header>
           <p class="m-0 pb-2">
             Site Name or Url is not valid, Please follow the rules below :
           </p>
