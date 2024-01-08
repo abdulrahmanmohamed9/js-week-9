@@ -29,6 +29,7 @@ function displayTable() {
               <td>
                 <a
                   href="https://${siteUrlInput.value}"
+                  target="_blank"
                   style="background-color: #9eb23b;"
                   class=" btn btn-submit px-3 text-white"
                   id="visitBtn"
